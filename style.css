@@ -1,9 +1,9 @@
 /* DESIGN TOKENS */
 :root {
   --primary-color: #ffb700; /* Gold/Accent */
-  --secondary-color: #2c3e50; /* Dark Blue/Charcoal */
+  --secondary-color: #1d2b38; /* Dark Blue/Charcoal */
   --text-primary: #1c1c1c;
-  --text-secondary: #515050; /* Muted text */
+  --text-secondary: #434344; /* Muted text */
   --bg-primary: #FFFFFF;
   --bg-secondary: #F8F8F8; /* Light card/section background */
   --border-color: #e0e0e0;
@@ -130,7 +130,7 @@ main {
   border-radius: 999px;
   border: 2px solid var(--primary-color);
   text-decoration: none;
-  font-size: 1rem;
+  font-size: 1.1rem;
   font-weight: 600;
   cursor: pointer;
   transition: all 0.3s ease;
@@ -363,4 +363,15 @@ main {
   .btn {
       text-align: center;
   }
+}
+.repo-link {
+  display: inline-block;
+  margin-top: 10px;
+  font-weight: 600;
+  color: #0000FF;
+  text-decoration: none;
+}
+
+.repo-link:hover {
+  text-decoration: underline;
 }
