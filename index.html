@@ -1,296 +1,506 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Mayank Chouhan | Portfolio</title>
-  <link rel="stylesheet" href="style.css" />
-</head>
-<body>
-  <header class="navbar">
-    <div class="logo">Mayank Chouhan</div>
-    <nav>
-      <a href="#about">About</a>
-      <a href="#skills">Top Skills</a>
-      <a href="#projects">Projects</a>
-      <a href="#education">Education</a>
-      <a href="#vision">Vision</a>
-      <a href="#contact">Contact</a>
-    </nav>
-  </header>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mayank Chouhan | Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="navbar">
+      <div class="logo">Mayank Chouhan</div>
+      <nav>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#certifications">Certifications</a>
+        <a href="#education">Education</a>
+        <a href="#vision">Vision</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
 
-  <main>
-    <section class="me" id="home">
-      <div class="me-text">
-        <h1>Mayank Chouhan</h1>
-        <p class="me-subtitle">
-        AI & Machine Learning Undergraduate
-       <br>Python | Java | C | Frontend Development | Data Structures & Algorithms
-       <br> Focused on designing intelligent systems and solving real-world problems through clean, efficient code.
+    <main>
+      <!-- ===== HERO ===== -->
+      <section class="me" id="home">
+        <div class="me-text">
+          <p class="me-eyebrow">AI & Machine Learning Undergraduate</p>
+          <h1>Mayank Chouhan</h1>
+          <p class="me-subtitle">
+            Building full-stack ML pipelines and Computer Vision systems.<br />
+            Python · Django · Deep Learning · GenAI · DSA
+          </p>
+          <div class="me-badges">
+            <span class="badge">GATE 2026 Qualified</span>
+            <span class="badge">TCS CodeVita Round 2</span>
+            <span class="badge">200+ DSA Problems</span>
+          </div>
+          <div class="me-buttons">
+            <a href="mailto:mayankchouhan263@gmail.com" class="btn primary"
+              >Email Me</a
+            >
+            <a
+              href="https://www.linkedin.com/in/mayank-chouhan-714340327"
+              target="_blank"
+              class="btn outline"
+              >LinkedIn</a
+            >
+            <a
+              href="https://github.com/mayankchouhan263"
+              target="_blank"
+              class="btn outline"
+              >GitHub</a
+            >
+          </div>
+        </div>
+        <div class="me-image">
+          <div class="photo-morph">
+            <img src="image/photo.jpg" alt="Mayank Chouhan" />
+          </div>
+        </div>
+      </section>
+
+      <!-- ===== ABOUT ===== -->
+      <section class="section" id="about">
+        <div class="section-inner two-col">
+          <div>
+            <h2 class="section-title">About Me</h2>
+            <p>
+              AIML undergraduate at LNCT Bhopal with hands-on experience
+              architecting full-stack Machine Learning pipelines and Computer
+              Vision systems. Based in Bhopal, Madhya Pradesh, India. Proven
+              ability to build and deploy high-accuracy predictive models and
+              real-time object detection applications using Python, Django, and
+              deep learning frameworks. Passionate about intelligent systems
+              that solve real problems.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- ===== SKILLS ===== -->
+      <section class="section" id="skills">
+        <h2 class="section-title">Technical Skills</h2>
+        <p class="section-subtitle">
+          Full-stack ML to frontend — the complete toolkit.
         </p>
-        <div class="me-buttons">
-          <a href="mailto:mayankchouhan263@gmail.com" class="btn primary">Email Me</a>
-          
-          <a href="https://www.linkedin.com/in/mayank-chouhan-714340327" target="_blank" class="btn outline">LinkedIn</a>
+        <div class="skills-grid">
+          <div class="skill-card">
+            <h3>Machine Learning</h3>
+            <p>
+              Scikit-learn, SVM, Decision Trees, K-Means, Logistic Regression —
+              end-to-end predictive pipelines.
+            </p>
+          </div>
+          <div class="skill-card">
+            <h3>Deep Learning & Vision</h3>
+            <p>
+              PyTorch, TensorFlow, CNN, RNN, YOLO, Faster R-CNN, OpenCV for
+              real-time detection systems.
+            </p>
+          </div>
+          <div class="skill-card">
+            <h3>GenAI & NLP</h3>
+            <p>
+              Transformers, GANs, LLMs, RAG pipelines, OpenAI APIs — building
+              next-gen AI applications.
+            </p>
+          </div>
+          <div class="skill-card">
+            <h3>Web & Deployment</h3>
+            <p>
+              HTML, CSS, JavaScript, Django, Flask, FastAPI — cloud-deployed
+              with Render and Gunicorn.
+            </p>
+          </div>
+          <div class="skill-card">
+            <h3>Programming</h3>
+            <p>
+              Python, Java, C, SQL — strong DSA foundations with 200+ problems
+              solved across platforms.
+            </p>
+          </div>
+          <div class="skill-card">
+            <h3>Tools & Platforms</h3>
+            <p>
+              Git, GitHub, VS Code, JupyterLab, Canva, Figma — from development
+              to design.
+            </p>
+          </div>
+        </div>
+      </section>
 
-        </div>
-      </div>
-      <div class="me-image">
-         <div class="photo-morph">
-        <img src="image/photo.jpg" alt="Mayank Chouhan" />
-      </div>
-      </div>
-    </section>
-
-    <section class="section" id="about">
-      <div class="section-inner two-col">
-        <div>
-          <h2 class="section-title">About Me</h2>
-          <p>
-            Based in Indore, Madhya Pradesh, India, I am an AI & ML undergraduate with a strong foundation in Python,
-            Java, and frontend development. My passion lies in designing intelligent systems that solve complex problems.
-            I am constantly expanding my skill set and eager to contribute to innovative projects in the field of
-            artificial intelligence and machine learning.
-          </p>
-        </div>
-      </div>
-    </section>
-
-    <section class="section" id="skills">
-      <h2 class="section-title">Top Skills</h2>
-      <p class="section-subtitle">
-        My expertise spans core programming languages, modern development practices, and AI/ML.
-      </p>
-      <div class="skills-grid">
-        <div class="skill-card">
-          <h3>AI & ML</h3>
-          <p>
-            Designing and implementing intelligent systems, leveraging machine learning algorithms for predictive
-            modeling and data analysis.
-          </p>
-        </div>
-        <div class="skill-card">
-          <h3>Python</h3>
-          <p>
-            Proficient in Python for data science, scripting, and backend development, with a focus on clean and
-            efficient code.
-          </p>
-        </div>
-        <div class="skill-card">
-          <h3>Frontend Development</h3>
-          <p>
-            Building responsive and user-friendly web interfaces using HTML, CSS, and JavaScript.
-          </p>
-        </div>
-        <div class="skill-card">
-          <h3>Java</h3>
-          <p>
-            Strong foundation in Java for robust application development and object-oriented design.
-          </p>
-        </div>
-        <div class="skill-card">
-          <h3>Data Structures & Algorithms</h3>
-          <p>
-            Deep understanding of data structures and efficient algorithms for solving complex problems.
-          </p>
-        </div>
-      </div>
-    </section>
-
-    <section class="section">
-      <h2 class="section-title">Technical Footprint</h2>
-      <div class="simple-skill-grid">
-        <div class="simple-skill-box">
-          <a href="https://github.com/mayankchouhan263-crypto" target="_blank">GitHub</a>
-        </div>
-        <div class="simple-skill-box">
-           <a href="#" target="_blank">Resume Download</a>
-        </div>
-        <div class="simple-skill-box">
+      <!-- ===== TECHNICAL FOOTPRINT ===== -->
+      <section class="section">
+        <h2 class="section-title">Technical Footprint</h2>
+        <div class="simple-skill-grid">
+          <div class="simple-skill-box">
+            <a href="https://github.com/mayankchouhan263" target="_blank"
+              >GitHub</a
+            >
+          </div>
+          <div class="simple-skill-box">
+            <a href="#" target="_blank">Resume Download</a>
+          </div>
+          <div class="simple-skill-box">
             <a href="#" target="_blank">LeetCode Profile</a>
           </div>
-      </div>
-    </section>
+        </div>
+      </section>
 
-    <section class="section" id="projects">
-      <h2 class="section-title">Projects</h2>
-      <p class="section-subtitle">
-        Hover on a project to slide and see the details.
-      </p>
-      <div class="hover-grid">
-        <div class="hover-card">
-          <h3 class="hover-title">Portfolio Website</h3>
-          <div class="hover-body">
-            <p>
-              Designed and developed a responsive personal portfolio website using HTML5, CSS3, and vanilla JavaScript. Implemented mobile-first responsiveness, interactive sections, smooth scrolling, and optimized performance. Deployed on GitHub Pages with Git version control.
-            </p>
-            <a href="https://github.com/mayankchouhan263-crypto/Portfolio_Website" target="_blank" class="repo-link">
-              View Repository
-            </a>
+      <!-- ===== PROJECTS ===== -->
+      <section class="section" id="projects">
+        <h2 class="section-title">Projects</h2>
+        <p class="section-subtitle">Hover a project to reveal the details.</p>
+        <div class="hover-grid">
+          <div class="hover-card">
+            <h3 class="hover-title">
+              CreditWise — AI Loan Intelligence System
+            </h3>
+            <div class="hover-body">
+              <p>
+                Full-stack ML web app using Python, Django, Scikit-learn, and
+                Logistic Regression trained on
+                <strong>975,800 records</strong> — 83.1% accuracy, 74.8%
+                precision, 69.3% F1 Score. End-to-end pipeline: preprocessing,
+                feature engineering (Credit Score², DTI², Collateral Ratio),
+                model training, REST API. Deployed on Render with WhiteNoise,
+                Gunicorn; frontend includes EMI calculator, amortization
+                schedule, and real-time prediction.
+              </p>
+              <div class="hover-links">
+                <a
+                  href="https://creditwise-rxt6.onrender.com/"
+                  target="_blank"
+                  class="repo-link"
+                  >Live Demo</a
+                >
+                <a
+                  href="https://github.com/mayankchouhan263/CreditWise.git"
+                  target="_blank"
+                  class="repo-link"
+                  >View Repository</a
+                >
+              </div>
+            </div>
+          </div>
 
+          <div class="hover-card">
+            <h3 class="hover-title">Real-Time Object Detection System</h3>
+            <div class="hover-body">
+              <p>
+                Real-time object detection pipeline built with YOLO, SSD, Faster
+                R-CNN, and a custom CNN model in Python. Trained and fine-tuned
+                on custom datasets with preprocessing and augmentation.
+                Integrated OpenCV for webcam-based live detection with bounding
+                box visualization.
+              </p>
+              <div class="hover-links">
+                <a
+                  href="https://github.com/mayankchouhan263"
+                  target="_blank"
+                  class="repo-link"
+                  >View Repository</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="hover-card">
+            <h3 class="hover-title">SOS Game with Minimax AI</h3>
+            <div class="hover-body">
+              <p>
+                Classic SOS board game in Java integrating a custom
+                Minimax-based AI to simulate intelligent gameplay, optimize
+                moves, and provide a challenging opponent experience using
+                standard Java libraries.
+              </p>
+              <div class="hover-links">
+                <a
+                  href="https://github.com/mayankchouhan263/SOS_Game"
+                  target="_blank"
+                  class="repo-link"
+                  >View Repository</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="hover-card">
+            <h3 class="hover-title">Portfolio Website</h3>
+            <div class="hover-body">
+              <p>
+                Responsive personal portfolio built with HTML5, CSS3, and
+                vanilla JavaScript. Mobile-first design, smooth scrolling,
+                interactive sections, and optimized performance. Deployed on
+                GitHub Pages.
+              </p>
+              <div class="hover-links">
+                <a
+                  href="https://github.com/mayankchouhan263/Portfolio_Website"
+                  target="_blank"
+                  class="repo-link"
+                  >View Repository</a
+                >
+              </div>
+            </div>
           </div>
         </div>
+      </section>
 
-        <div class="hover-card">
-          <h3 class="hover-title">SOS Game</h3>
-          <div class="hover-body">
-            <p>
-              Developed a classic SOS board game in Java using standard libraries, integrating a custom Minimax-based AI to simulate intelligent gameplay, optimize moves, and provide a challenging opponent experience.
-            </p>
-            <a href="https://github.com/mayankchouhan263-crypto/SOS_Game" target="_blank" class="repo-link">
-             View Repository
-            </a>
-
+      <!-- ===== ACHIEVEMENTS ===== -->
+      <section class="section" id="achievements">
+        <h2 class="section-title">Achievements</h2>
+        <div class="achievements-grid">
+          <div class="achievement-card">
+            <span class="achievement-icon">🏆</span>
+            <div>
+              <h3>GATE 2026</h3>
+              <p>All India Rank (AIR): <strong>18644</strong></p>
+            </div>
+          </div>
+          <div class="achievement-card">
+            <span class="achievement-icon">💻</span>
+            <div>
+              <h3>TCS CodeVita</h3>
+              <p>
+                Qualified <strong>Round 2</strong> of the competitive
+                programming contest
+              </p>
+            </div>
+          </div>
+          <div class="achievement-card">
+            <span class="achievement-icon">🧠</span>
+            <div>
+              <h3>DSA Practice</h3>
+              <p>
+                Solved <strong>200+</strong> Data Structures & Algorithms
+                problems across platforms
+              </p>
+            </div>
           </div>
         </div>
-      </div>
-    </section>
+      </section>
 
-    <section class="section" id="certifications">
-      <h2 class="section-title">Certifications</h2>
-      <div class="cert-grid">
-        <a href="https://www.coursera.org/account/accomplishments/verify/WGG840PL9GR6" target="_blank" class="cert-item">
-          <span class="cert-number">01</span>
-          <div>
-            <h3> Data Structures & Backend with Java</h3>
-            <p>proficiency in Java's data structures. Learn to manipulate data using arrays, String class, and Collections Framework. .</p>
-          </div>
-        </a>
-               <a href="https://www.linkedin.com/learning/certificates/a4b9de20e91fc6c2a3358e7260ab73422fd73f6ddd4e29b548cbc613f29e1702" target="_blank" class="cert-item">
-          <span class="cert-number">02</span>
-          <div>
-            <h3>Programming with Python Professional Certificate</h3>
-            <p>Professional certification from OpenEDG Python Institute.</p>
-          </div>
-        </a>
-        <a href="https://www.linkedin.com/learning/certificates/61e1f4318216ff6ac8c93d92f626d45ecb4cd4483fd6280f6c30fa5fbce1189c" target="_blank" class="cert-item">
-          <span class="cert-number">03</span>
-          <div>
-            <h3>Learning the JavaScript Language</h3>
-            <p>Mastering the core concepts of JavaScript.</p>
-          </div>
-        </a>
-        <a href="certificates/Network_Technician.pdf" target="_blank" class="cert-item">
-          <span class="cert-number">04</span>
-          <div>
-            <h3>Networking Essentials</h3>
-            <p>Networks keep the digital world connected. Learn how networks work and gain employable skills to start your tech career.</p>
-          </div>
-        </a>
-        <a href="https://www.credly.com/badges/c66d4ed8-a185-4e69-988a-41ba807b3581/linked_in_profile" target="_blank" class="cert-item">
-          <span class="cert-number">05</span>
-          <div>
-            <h3>Prompt Design in Vertex AI Skill Badge</h3>
-            <p>Expertise in designing effective prompts for AI models.</p>
-          </div>
-        </a>
-        <a href="certificates/Introduction_to_Modern_AI_certificate.pdf" target="_blank" class="cert-item">
-          <span class="cert-number">06</span>
-          <div>
-            <h3>Introduction to Modern AI</h3>
-            <p>Introduces core concepts of modern AI, including machine learning, deep learning, and practical use cases.</p>
-          </div>
-        </a>
-                <a href="certificates/Apply_AI.pdf" target="_blank" class="cert-item">
-          <span class="cert-number">07</span>
-          <div>
-            <h3>Apply AI: Analyze Customer Reviews</h3>
-            <p>Used AI-powered text analysis to derive actionable insights and sentiment from customer feedback.</p>
-          </div>
-        </a>
-      </div>
-    </section>
+      <!-- ===== CERTIFICATIONS ===== -->
+      <section class="section" id="certifications">
+        <h2 class="section-title">Certifications</h2>
+        <div class="cert-grid">
+          <a href="#" target="_blank" class="cert-item">
+            <span class="cert-number">01</span>
+            <div>
+              <h3>Prime AIML Batch (4-Month Intensive)</h3>
+              <p>
+                Apna College — in-depth AIML training covering ML, DL, and
+                practical project work.
+              </p>
+            </div>
+          </a>
 
-    <section class="section" id="education">
-      <h2 class="section-title">Education</h2>
-      <p class="section-subtitle">
-        Hover on each heading to slide and reveal full details.
-      </p>
+          <a href="#" target="_blank" class="cert-item">
+            <span class="cert-number">02</span>
+            <div>
+              <h3>CCNA Series — Enterprise, Routing & Switching</h3>
+              <p>
+                Cisco Networking Academy — Python Essentials 1 & 2, Modern AI,
+                Data Science & IoT.
+              </p>
+            </div>
+          </a>
 
-      <div class="hover-grid">
-        <div class="hover-card">
-          <h3 class="hover-title">Bachelor of Technology</h3>
-          <div class="hover-body">
-            <h4>LNCT Group of Colleges</h4>
-            <p>
-              Bachelor of Technology – B.Tech, Computer Science<br />
-              September 2023 – September 2027<br />
-              Focused on a comprehensive curriculum covering various aspects of computer science, including AI and ML.
-            </p>
-          </div>
-        </div>
+          <a
+            href="https://www.credly.com/badges/c66d4ed8-a185-4e69-988a-41ba807b3581/linked_in_profile"
+            target="_blank"
+            class="cert-item"
+          >
+            <span class="cert-number">03</span>
+            <div>
+              <h3>Prompt Design in Vertex AI Skill Badge</h3>
+              <p>
+                Google Cloud — expertise in designing effective prompts for AI
+                models.
+              </p>
+            </div>
+          </a>
 
-        <div class="hover-card">
-          <h3 class="hover-title">Academic Journey: Class 12</h3>
-          <div class="hover-body">
-            <h4>St. Mary's Convent School</h4>
-            <p>
-              Class 12 (Higher Secondary), PCM<br />
-              April 2021 – July 2022<br />
-              Key Subjects: Physics, Chemistry, Mathematics.<br />
-              Built a strong foundation in scientific and analytical thinking.
-            </p>
-          </div>
-        </div>
+          <a
+            href="https://www.linkedin.com/learning/certificates/a4b9de20e91fc6c2a3358e7260ab73422fd73f6ddd4e29b548cbc613f29e1702"
+            target="_blank"
+            class="cert-item"
+          >
+            <span class="cert-number">04</span>
+            <div>
+              <h3>OpenEDG Python Professional</h3>
+              <p>
+                LinkedIn Learning — Python (Essential, OOP, Level Up), GenAI,
+                JavaScript & AI Fundamentals.
+              </p>
+            </div>
+          </a>
 
-        <div class="hover-card">
-          <h3 class="hover-title">Academic Journey: Class 10</h3>
-          <div class="hover-body">
-            <h4>St. Mary's Convent School Petlawad</h4>
-            <p>
-              Class 10 (Secondary School), General Studies<br />
-              April 2019 – July 2020<br />
-              Developed a broad understanding across various subjects and strong academic fundamentals.
-            </p>
-          </div>
-        </div>
-      </div>
-    </section>
+          <a
+            href="https://www.linkedin.com/learning/certificates/61e1f4318216ff6ac8c93d92f626d45ecb4cd4483fd6280f6c30fa5fbce1189c"
+            target="_blank"
+            class="cert-item"
+          >
+            <span class="cert-number">05</span>
+            <div>
+              <h3>Learning the JavaScript Language</h3>
+              <p>
+                LinkedIn Learning — mastering core JavaScript concepts and
+                fundamentals.
+              </p>
+            </div>
+          </a>
 
-    <section class="section" id="vision">
-      <div class="section-inner two-col">
-        <div class="side-image-placeholder">
-          <img src="image/bg.jpg" alt="Vision Image" />
-        </div>
-        <div>
-          <h2 class="section-title">My Vision</h2>
-          <p>
-            
-           My goal is to apply my skills in software engineering, artificial intelligence, and machine learning
-           to build innovative, real-world solutions that create meaningful impact and solve practical problems.
-           I am deeply driven by curiosity, discipline, and a strong dedication to continuous learning, constantly
-          pushing myself to improve both technically and creatively.
-          In a rapidly evolving technology landscape, I strive to grow, adapt, and stay ahead by exploring new tools,
-          strengthening my fundamentals, and building projects that reflect my passion for quality and innovation.
-          My vision is to create technology that is not only intelligent and scalable, but also ethical, reliable,
-          and genuinely useful to people and society.
+          <a
+            href="certificates/Introduction_to_Modern_AI_certificate.pdf"
+            target="_blank"
+            class="cert-item"
+          >
+            <span class="cert-number">06</span>
+            <div>
+              <h3>Introduction to Modern AI</h3>
+              <p>
+                Core concepts of modern AI — machine learning, deep learning,
+                and practical use cases.
+              </p>
+            </div>
+          </a>
 
-          </p>
-        </div>
-      </div>
-    </section>
-
-    <section class="section" id="contact">
-      <h2 class="section-title">Connect With Me</h2>
-      <div class="contact-grid">
-        <div>
-          <h3>Email</h3>
-          <a href="mailto:mayankchouhan263@gmail.com">mayankchouhan263@gmail.com</a>
-        </div>
-        <div>
-          <h3>LinkedIn</h3>
-          <a href="https://www.linkedin.com/in/mayank-chouhan-714340327" target="_blank">
-            linkedin.com/in/mayank-chouhan-714340327
+          <a
+            href="certificates/Network_Technician.pdf"
+            target="_blank"
+            class="cert-item"
+          >
+            <span class="cert-number">07</span>
+            <div>
+              <h3>Networking Essentials</h3>
+              <p>
+                Cisco — foundational networking skills for modern tech careers.
+              </p>
+            </div>
           </a>
         </div>
-      </div>
-    </section>
-  </main>
+      </section>
 
-  <footer class="footer">
-    <p>© <span id="year"></span> Mayank Chouhan. All rights reserved.</p>
-  </footer>
+      <!-- ===== EDUCATION ===== -->
+      <section class="section" id="education">
+        <h2 class="section-title">Education</h2>
+        <p class="section-subtitle">Hover each card to reveal full details.</p>
+        <div class="hover-grid">
+          <div class="hover-card">
+            <h3 class="hover-title">B.Tech — AI & Machine Learning</h3>
+            <div class="hover-body">
+              <h4>Lakshmi Narain College of Technology (LNCT), Bhopal</h4>
+              <p>
+                Bachelor of Technology – Artificial Intelligence & Machine
+                Learning<br />
+                2023 – 2027 (Expected) &nbsp;|&nbsp; CGPA:
+                <strong>8.03 / 10</strong><br /><br />
+                Comprehensive curriculum covering AI, ML, Computer Vision, Data
+                Structures, and full-stack development.
+              </p>
+            </div>
+          </div>
 
-  <script src="script.js"></script>
-</body>
+          <div class="hover-card">
+            <h3 class="hover-title">Higher Secondary — Class 12 (PCM)</h3>
+            <div class="hover-body">
+              <h4>St. Mary's Convent School, Petlawad</h4>
+              <p>
+                CBSE – Science (Physics, Chemistry, Mathematics)<br />
+                2022 &nbsp;|&nbsp; Percentage: <strong>76.6%</strong
+                ><br /><br />
+                Strong foundation in analytical and scientific thinking.
+              </p>
+            </div>
+          </div>
+
+          <div class="hover-card">
+            <h3 class="hover-title">Secondary — Class 10</h3>
+            <div class="hover-body">
+              <h4>St. Mary's Convent School, Petlawad</h4>
+              <p>
+                CBSE – General Studies<br />
+                2020 &nbsp;|&nbsp; Percentage: <strong>86.4%</strong
+                ><br /><br />
+                Broad academic fundamentals across core subjects.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ===== VISION ===== -->
+      <section class="section" id="vision">
+        <div class="section-inner two-col">
+          <div class="side-image-placeholder">
+            <img src="image/bg.jpg" alt="Vision" />
+          </div>
+          <div>
+            <h2 class="section-title">My Vision</h2>
+            <p>
+              My goal is to apply my skills in software engineering, artificial
+              intelligence, and machine learning to build innovative, real-world
+              solutions that create meaningful impact. I am driven by curiosity,
+              discipline, and continuous learning — constantly pushing myself to
+              improve both technically and creatively.
+            </p>
+            <br />
+            <p>
+              In a rapidly evolving technology landscape, I strive to grow,
+              adapt, and stay ahead by exploring new tools, strengthening my
+              fundamentals, and building projects that reflect my passion for
+              quality and innovation. My vision is to create technology that is
+              intelligent, scalable, ethical, and genuinely useful.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- ===== CONTACT ===== -->
+      <section class="section" id="contact">
+        <h2 class="section-title">Connect With Me</h2>
+        <div class="contact-grid">
+          <div>
+            <h3>Email</h3>
+            <a href="mailto:mayankchouhan263@gmail.com"
+              >mayankchouhan263@gmail.com</a
+            >
+          </div>
+          <div>
+            <h3>LinkedIn</h3>
+            <a
+              href="https://www.linkedin.com/in/mayank-chouhan-714340327"
+              target="_blank"
+            >
+              linkedin.com/in/mayank-chouhan-714340327
+            </a>
+          </div>
+          <div>
+            <h3>GitHub</h3>
+            <a href="https://github.com/mayankchouhan263" target="_blank">
+              github.com/mayankchouhan263
+            </a>
+          </div>
+          <div>
+            <h3>Portfolio</h3>
+            <a
+              href="https://mayankchouhan263.github.io/Portfolio_Website/"
+              target="_blank"
+            >
+              mayankchouhan263.github.io
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>© <span id="year"></span> Mayank Chouhan. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
 </html>

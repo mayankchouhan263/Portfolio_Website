@@ -59,7 +59,7 @@ Contact – Email & LinkedIn
 
 🚀 How to Run Locally
 Clone the repository
-git clone https://github.com/mayankchouhan263-crypto/Portfolio_Website.git
+git clone https://github.com/mayankchouhan263/Portfolio_Website.git
 
 Open the folder
 cd Portfolio_Website
@@ -81,7 +81,7 @@ Practice frontend and software engineering skills
 Name: Mayank Chouhan
 Email: mayankchouhan263@gmail.com
 LinkedIn: linkedin.com/in/mayank-chouhan-714340327
-GitHub: github.com/mayankchouhan263-crypto
+GitHub: github.com/mayankchouhan263
 
 ⭐ Support
 If you like this project, please consider giving it a ⭐ on GitHub.
